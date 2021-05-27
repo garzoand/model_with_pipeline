@@ -2,7 +2,7 @@
 # This is a Python 2 image that uses the nginx, gunicorn, flask stack
 # for serving inferences in a stable way.
 
-FROM ubuntu:16.04
+FROM 683059238010.dkr.ecr.us-west-2.amazonaws.com/ubuntu-base:latest
 
 RUN apt-get -y update && apt-get install -y --no-install-recommends \
          wget \
